@@ -25,12 +25,11 @@ html {
 }
 
 body {
-    min-height: var(--line-height-base);
+    line-height: var(--line-height-base);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-medium);
     color: var(--text-color);
     font-family: var(--font-family-base);
-    line-height: var(--line-height-base);
 }
 
 a {
