@@ -17,6 +17,7 @@
     --line-height-small: 1.2;
     --line-height-base: 1.5;
     --line-height-big: 1.8;
+    --section-header-align: center;
 }
 
 html {
@@ -25,7 +26,7 @@ html {
 }
 
 body {
-    min-height: var(--line-height-base);
+    line-height: var(--line-height-base);
     font-weight: var(--font-weight-regular);
     font-size: var(--font-size-medium);
     color: var(--text-color);
@@ -43,6 +44,10 @@ a {
 
 .card-category {
     color: var(--color-primary);
+}
+
+.section-header {
+    text-align: var(--section-header-align);
 }
 
 .section-tagline {
