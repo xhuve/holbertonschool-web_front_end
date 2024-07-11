@@ -30,6 +30,7 @@ body {
     font-size: var(--font-size-medium);
     color: var(--text-color);
     font-family: var(--font-family-base);
+    line-height: var(--line-height-base);
 }
 
 a {
