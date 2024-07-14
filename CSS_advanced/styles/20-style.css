@@ -182,6 +182,12 @@ ul.row {
     padding: var(--footer-padding);
 }
 
+.row::after {
+    content: none;
+    display: table;
+    float: none;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-weight: var(--font-weight-bold);
     font-family: var(--font-family-title);
