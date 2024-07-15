@@ -218,6 +218,7 @@ a:active {
 
 .card-work .card-outer {
     position: relative;
+    overflow: hidden;
 }
 
 .card-work .card-image img {
